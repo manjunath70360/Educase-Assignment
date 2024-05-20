@@ -157,6 +157,7 @@ width: 120px;
     font-size: 15px;
     display: flex;
     align-items: center;
+        background-color: rgb(228, 236, 243);
     justify-content: center;
     width: 40%;
     padding: 8px;
