@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.app-container{
+  height: 100vh;
+  padding: 20px;
+
+}
+.suitable{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.pc-img{
+  width: 200px;
+  height: 200px;
+}
+.mobile{
+  font-family: roboto;
+  font-size: 32px;
+  font-weight: 500;
+  text-align: center;
+}
+
+@media (min-width:650px){
+  .app-container{
+    display: none;
+  }
+  
+
+}
+@media (max-width:650px){
+  .app-container{
+    display: block;
+  }
+.suitable{
+  display: none;
+}
+}
+
+.nav-bar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-logo{
+  height: 40px;
+  width: 90px;
+}
+.bell-btn{
+  border: none;
+  background-color: rgb(254, 254, 254);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 38px;
+  width: 38px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease;
+  cursor: pointer;
+}
+.search-container{
+  border: 1px solid rgb(58, 58, 58);
+  border-radius: 4px;
+  cursor: pointer;
+  padding-left: 4px;
+  padding-right: 4px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-top: 22px;
+}
+.search-input{
+  border: none;
+  width: 90%;
+  font-family: roboto;
+  font-size: 15px;
+  outline: none;
+  margin-left: 2px;
+  height: 34px;
+}
+.trend-text{
+  display: flex;
+  align-items: center;
+  margin-bottom: 0px;
+  margin-top: 10px;
+  justify-content: space-between;
+}
+
+.trend{
+  font-family: roboto;
+  font-size: 18px;
+  font-weight: 500;
+}
+.see-all{
+  font-family: roboto;
+  font-size: 16px;
+  font-weight: 400;
+}
+.trending-article{
+width: 100%;
+}
+.trend-img{
+width: 100%;
+height: 220px;
+border-radius: 3px;
+}
+.title{
+font-family: roboto;
+font-size: 16px;
+font-weight: 400;
+margin-bottom: 0px;
+margin-top: 3px;
+}
+.channel-time{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.text-dots{
+  display: flex;
+  align-items: center;
+}
+.place{
+  font-family: roboto;
+font-size: 13px;
+font-weight: 400;
+color: gray;
+margin-bottom: 3px;
+}
+.author{
+font-family: roboto;
+font-size: 14px;
+font-weight: 500;
+color: rgb(121, 119, 119);
+margin-right: 10px;
+}
+.time{
+  font-family: roboto;
+  font-size: 14px;
+  color: gray;
+}
+.text-logo{
+  display: flex;
+  align-items: center;
+}
+.time-logo{
+  color: gray;
+}
+.bbc-logo{
+  width: 32px;
+  height: 32px;
+ border-radius: 16px;
+ margin-right: 4px;
+}
+.bbc{
+  width: 24px;
+  height: 24px;
+ border-radius: 16px;
+ margin-right: 4px;
+}
+.dots{
+ font-size: 22px;
+ margin: 0px;
+}
+.tabs-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+  margin-top: 0px;
+  padding: 0px;
+  width: 100%;
+  overflow-x: auto; 
+  white-space: nowrap;
+  -ms-overflow-style: none; 
+  scrollbar-width: none;
+}
+.tab{
+  margin-right: 10px;
+
+}
+.active-tab{
+  height: 44px;
+
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-family: roboto;
+  font-size: 15px;
+  cursor: pointer;
+
+  border-bottom: 2px solid #5900ff;
+}
+.inactive-tab{
+  height: 44px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-family: roboto;
+  font-size: 15px;
+  cursor: pointer;
+ 
+}
+.article-container{
+  margin: 0px;
+  padding: 0px;
+  padding-left: 14px;
+  padding-bottom: 75px;
+}
+.article-con{
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+  
+}
+.article-image{
+  width: 110px;
+  height:110px;
+  margin-right: 10px;
+  border-radius: 6px;
+}
+.a{
+  text-decoration: none;
+  color: rgb(36, 36, 36);
+}
+.footer-container{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff; 
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.1);
+
+}
+.icon-name{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+.active-footer-name{
+  font-family: roboto;
+  font-size: 14px;
+  margin-top: 5px;
+  font-weight: 400;
+  color: #5900ff;
+}
+.inactive-footer-name{
+  font-family: roboto;
+  font-size: 14px;
+  margin-top: 5px;
+  font-weight: 400;
+}
+.active-footer-icon{
+  color: #5900ff;
+}
+.inactive-footer-icon{
+  color: rgb(20, 20, 20);
+}
+.loading-container{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

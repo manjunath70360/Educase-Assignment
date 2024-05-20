@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.header-con{
+   display: flex;
+   align-items: center;
+   margin-bottom: 20px;
+   width: 100%;
+}
+.profile-container{
+
+    padding: 20px;
+}
+.header{
+    margin: 0px;
+    font-family: roboto;
+    font-size: 20px;
+text-align: center;
+
+}
+.head{
+    width: 100%;
+    margin: 0px;
+}
+.arrow-btn{
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+.span{
+    color: red;
+}
+.form-name{
+    font-family: roboto;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(106, 106, 106);
+    margin-top: 12px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 380px;
+    justify-content: space-between;
+}
+.form-data{
+    display: flex;
+    flex-direction: column;
+
+
+}
+.input{
+    border: 1px solid rgb(56, 56, 56);
+    height: 32px;
+    border-radius: 3px;
+    margin-top: 5px;
+    outline: none;
+}
+
+.next-btn{
+    background-color: rgb(0, 0, 255);
+    border: none;
+    font-family: roboto;
+    font-size: 15px;
+    color: white;
+    font-weight: 500;
+    width: 100%;
+    height: 36px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.login-btn:hover{
+    background-color: rgb(3, 3, 203);
+}
+
+
+.photo-selector {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .upload-prompt {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+    color: #999;
+    text-align: center;
+    position: relative;
+  }
+.upload{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+    color: #999;
+    text-align: center;
+    position: relative;
+
+}
+ 
+  .cam-icon{
+    color: white;
+  }
+  .photo-frame {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+  }
+  .cam-btn{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(41, 41, 253);
+    border: none;
+    padding: 5px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    
+  }
+  .cam-btns{
+   position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(41, 41, 253);
+    border: none;
+    padding: 5px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  .photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  
+.suitable{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .pc-img{
+    width: 200px;
+    height: 200px;
+  }
+  .mobile{
+    font-family: roboto;
+    font-size: 32px;
+    font-weight: 500;
+    text-align: center;
+  }
+  
+  @media (min-width:650px){
+    .profile-container{
+      display: none;
+    }
+    
+  
+  }
+  @media (max-width:650px){
+    .profile-container{
+      display: block;
+    }
+  .suitable{
+    display: none;
+  }
+  }
